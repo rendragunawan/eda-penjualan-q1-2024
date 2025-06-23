@@ -1,6 +1,6 @@
 # 📊 Exploratory Data Analysis – Penjualan Q1 2024
 
-Proyek ini berfokus pada penerapan *Exploratory Data Analysis (EDA)* terhadap data penjualan triwulan pertama tahun 2024. Proyek ini merupakan bagian dari pembelajaran portofolio sebagai data analyst pemula dengan pendekatan *learn by doing*.
+Proyek ini berfokus pada penerapan *Exploratory Data Analysis (EDA)* terhadap data penjualan triwulan pertama tahun 2024. Proyek ini merupakan bagian dari pembelajaran portofolio sebagai data analyst pemula.
 
 ---
 
