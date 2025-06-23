@@ -1,40 +1,49 @@
-# 📊 EDA Penjualan Q1 2024
+# 📊 Exploratory Data Analysis – Penjualan Q1 2024
 
-Proyek ini merupakan lanjutan dari proses data cleaning, dengan fokus pada **Exploratory Data Analysis (EDA)** terhadap data penjualan triwulan pertama tahun 2024. Proyek ini dilakukan menggunakan Python dan Jupyter Notebook.
-
-## 🎯 Tujuan
-
-- Menggali insight dari data penjualan yang telah dibersihkan
-- Menjawab pertanyaan bisnis sederhana melalui analisis statistik dan visualisasi
-- Menyusun temuan untuk bahan pengambilan keputusan
-
-## 🔍 Pertanyaan yang Dijawab
-
-1. Produk apa yang paling sering terjual?
-2. Di bulan apa total penjualan tertinggi terjadi?
-3. Produk mana yang dibeli dalam jumlah paling banyak per transaksi?
-
-## 📈 Hasil Utama
-
-- Penjualan tertinggi terjadi pada bulan Januari 2024
-- Produk terlaris berhasil diidentifikasi dari total kuantitas
-- Visualisasi bar chart digunakan untuk memperjelas tren
-
-## 📁 File dalam Proyek
-
-| File                        | Deskripsi                                         |
-|----------------------------|---------------------------------------------------|
-| `eda-penjualan-q1-2024.ipynb` | Notebook berisi proses EDA dan visualisasi data |
-| `dataset_penjualan_bersih.csv` | Dataset hasil cleaning yang digunakan dalam analisis |
-| `README.md`                 | Penjelasan proyek secara umum                    |
-
-## 🛠️ Tools yang Digunakan
-
-- Python
-- Pandas
-- Matplotlib
-- Jupyter Notebook
+Proyek ini berfokus pada penerapan *Exploratory Data Analysis (EDA)* terhadap data penjualan triwulan pertama tahun 2024. Proyek ini merupakan bagian dari pembelajaran portofolio sebagai data analyst pemula dengan pendekatan *learn by doing*.
 
 ---
 
-Proyek ini merupakan bagian dari proses belajar data analyst.
+## 🎯 Tujuan Proyek
+- Mengeksplorasi data penjualan yang telah dibersihkan
+- Menjawab pertanyaan bisnis dasar melalui analisis dan visualisasi
+- Menyajikan temuan dalam bentuk notebook dan grafik interaktif
+
+---
+
+## 📌 Pertanyaan Bisnis yang Dijawab
+1. Produk apa yang paling sering terjual berdasarkan kuantitas?
+2. Di bulan apa penjualan mencapai angka tertinggi?
+3. Produk mana yang memiliki rata-rata kuantitas terbanyak per transaksi?
+
+---
+
+## 📈 Hasil dan Insight
+- **Produk terlaris** telah diidentifikasi menggunakan `groupby` dan `sum`
+- **Penjualan bulanan** menunjukkan Januari sebagai bulan terkuat secara nilai penjualan
+- **Rata-rata kuantitas per produk** membantu memahami pola pembelian konsumen
+
+Visualisasi menggunakan `matplotlib` membantu mengkomunikasikan hasil analisis secara lebih jelas.
+
+---
+
+## 🗂️ Struktur File
+
+| Nama File                      | Keterangan                                               |
+|-------------------------------|-----------------------------------------------------------|
+| `eda-penjualan-q1-2024.ipynb` | Notebook Python untuk proses EDA dan visualisasi         |
+| `dataset_penjualan_bersih.csv`| Dataset bersih hasil cleaning yang dianalisis            |
+| `README.md`                   | Dokumentasi proyek ini                                   |
+
+---
+
+## 🛠️ Tools yang Digunakan
+- Python 3.x
+- Jupyter Notebook
+- Pandas
+- Matplotlib
+
+---
+
+## 🧠 Catatan
+Proyek ini dirancang sebagai bagian dari portofolio data analyst pemula. Semua insight yang diperoleh berasal dari data yang disimulasikan untuk tujuan pembelajaran.
